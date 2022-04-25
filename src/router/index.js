@@ -5,36 +5,36 @@ const router = createRouter({
     history : createWebHistory(),
     routes : [
     {
-        path : '/',
+        path : '/stx-vue/',
         name : 'Home',
         component : HomeIndex
     }, {
-        path : '/company',
+        path : '/stx-vue/company',
         name : 'Company',
         component : HomeIndex
 
     }, {
-        path : '/bussiness',
+        path : '/stx-vue/bussiness',
         name : 'Bussiness',
         component : HomeIndex
 
     }, {
-        path : '/cb',
+        path : '/stx-vue/cb',
         name : 'Cb',
         component : HomeIndex
 
     }, {
-        path : '/ad',
+        path : '/stx-vue/ad',
         name : 'Cb',
         component : HomeIndex
 
     }, {
-        path : '/cs',
+        path : '/stx-vue/cs',
         name : 'CS',
         component : HomeIndex
 
     }, {
-        path : '/job',
+        path : '/stx-vue/job',
         name : 'Job',
         component : HomeIndex
 
